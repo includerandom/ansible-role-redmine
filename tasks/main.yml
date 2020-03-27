@@ -9,7 +9,6 @@
 - name: Default list of pacakages to be installed
   set_fact:
     default_packages_list:
-      - ruby-devel
       - ImageMagick
       - ImageMagick-devel
       - ImageMagick-c++-devel
