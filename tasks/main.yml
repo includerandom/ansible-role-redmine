@@ -107,7 +107,7 @@
     state: present
     user_install: true
     version: "{{ redmine_bundler_version }}"
-    #    env_shebang: true
+    env_shebang: true
   become: true
   become_user: redmine
 
